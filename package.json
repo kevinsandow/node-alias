@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "src/index.ts",
+  "imports": {
+    "#packages/*": "./src/packages/*"
+  },
   "scripts": {
     "start": "tsx src/index.ts",
     "test": "eslint ."

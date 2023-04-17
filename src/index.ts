@@ -1,3 +1,3 @@
-import HelloWorld from './packages/HelloWorld'
+import HelloWorld from '#packages/HelloWorld'
 
 HelloWorld()

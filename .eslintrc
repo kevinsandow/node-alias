@@ -8,5 +8,12 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
-  ]
+  ],
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["#packages", "./src/packages"]
+      ]
+    }
+  }
 }
